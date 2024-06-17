@@ -1,0 +1,40 @@
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    > form {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 400px;
+        height: 500px;
+        background-color: #d3d3db;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+        > h1 {
+            text-align: center;
+        }
+        > .input-group {
+            margin-bottom: 20px;
+            > span {
+                > input {
+                    width: 100%;
+                }
+            }
+        }
+        > span {
+            margin-top: 20px;
+            font-weight: 600;
+            > a {
+                color: #007bff;
+                text-decoration: none;
+                margin-left: 5px;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
